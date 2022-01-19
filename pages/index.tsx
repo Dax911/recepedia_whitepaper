@@ -1,7 +1,7 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -14,145 +14,264 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-           Whitepaper for <a href="https://therecepedia.io">Recepedia</a>
+          Whitepaper for <a href="https://therecepedia.io">Recepedia</a>
         </h1>
 
         <p className={styles.description}>
-        Welcome to Chef Mabel NFT. We’re not the first recipe concept to hit the market, and we certainly won’t be the last. What we will be is the most streamlined, user friendly and innovative web 3 based platform for chefs looking to earn by sharing great recipes, and at-home-cooks who are seeking to simplify the recipe browsing experience.
-
+          Welcome to Chef Mabel NFT. We’re not the first recipe concept to hit
+          the market, and we certainly won’t be the last. What we will be is the
+          most streamlined, user friendly and innovative web 3 based platform
+          for chefs looking to earn by sharing great recipes, and at-home-cooks
+          who are seeking to simplify the recipe browsing experience.
         </p>
 
         <h2 className={styles.description}>
-        There are two distinct halves of this project: <b>Chef Mabel NFT & The Recepedia Marketplace.</b> 
+          There are two distinct halves of this project:{" "}
+          <b>Chef Mabel NFT & The Recepedia Marketplace.</b>
         </h2>
 
-        <h3 className={styles.description3}>
-          CHEF MABEL NFT
-          </h3>
+        <h3 className={styles.description3}>CHEF MABEL NFT</h3>
 
         <p className={styles.description2}>
-        Creators, speculators on the future of ‘foodie’ content in the Metaverse, and anyone who just plain loves great art are the target audience for the pfp portion of our project. Chef Mabel NFTs is a collection of 8,888 digitally unique pfp’s, which chefs will use to brand their online personas. As online identities are going mainstream, we see this niche as one that can exponentially benefit from the trend. The pseudo-anonymity provided by our pfp’s will allow them to share great food related content, generate revenue from sharing recipes, and participate in metaverse cooking competitions without having to plaster their image all over the web. They can use the pfp to brand themselves on twitter, Insta, blogs, LinkedIn, Discord, Reddit, and anywhere else profile pictures are used.
-        <br />
+          Creators, speculators on the future of ‘foodie’ content in the
+          Metaverse, and anyone who just plain loves great art are the target
+          audience for the pfp portion of our project. Chef Mabel NFTs is a
+          collection of 8,888 digitally unique pfp’s, which chefs will use to
+          brand their online personas. As online identities are going
+          mainstream, we see this niche as one that can exponentially benefit
+          from the trend. The pseudo-anonymity provided by our pfp’s will allow
+          them to share great food related content, generate revenue from
+          sharing recipes, and participate in metaverse cooking competitions
+          without having to plaster their image all over the web. They can use
+          the pfp to brand themselves on twitter, Insta, blogs, LinkedIn,
+          Discord, Reddit, and anywhere else profile pictures are used.
+          <br />
         </p>
         <h3 className={styles.description3}>
           <br />
           THE RECEPEDIA MARKETPLACE
-          </h3>
+        </h3>
         <p className={styles.description2}>
-        The primary use case for Chef Mabel NFT’s is for creating a brand identity in the Recepedia Marketplace. Here, creators will mint, sell & generate income from the recipes and cooking related content that they share. 
-        <br />
+          The primary use case for Chef Mabel NFT’s is for creating a brand
+          identity in the Recepedia Marketplace. Here, creators will mint, sell
+          & generate income from the recipes and cooking related content that
+          they share.
+          <br />
         </p>
         <p className={styles.description2}>
           <br />
-        From the user side, the Recipedia Marketplace will streamline several processes involved in acquiring great recipes from the web. How many times have you searched for that ‘one great recipe’ you found once, but have never been able to again? No more. When you mint a recipe from the Marketplace, it will be stored in your digital wallet unless you choose to pass it along. Users will also enjoy an ad free browsing experience, easily readable and consistent formatting, and eventually, enjoy time-saving conveniences like add to cart & Alexa compatibility. The Marketplace is already under construction, and we expect to have a beta version available by March of 2022. 
+          From the user side, the Recipedia Marketplace will streamline several
+          processes involved in acquiring great recipes from the web. How many
+          times have you searched for that ‘one great recipe’ you found once,
+          but have never been able to again? No more. When you mint a recipe
+          from the Marketplace, it will be stored in your digital wallet unless
+          you choose to pass it along. Users will also enjoy an ad free browsing
+          experience, easily readable and consistent formatting, and eventually,
+          enjoy time-saving conveniences like add to cart & Alexa compatibility.
+          The Marketplace is already under construction, and we expect to have a
+          beta version available by March of 2022.
         </p>
         <p className={styles.description2}>
           <br />
-        Our NFT / Marketplace concept will provide an easy transition for new users to the NFT market, and provides some unique use cases as well. Our Marketplace will allow users to create customized cookbooks containing ONLY recipes they love (and gift them, too!). Original creators of recipes within the Marketplace will have their intellectual property protected for the first time ever. One of the things we’re most excited to watch is the growth of the community that evolves from the project. Communities are one of the most exciting aspects of NFT collection, and we fully expect to grow an organic, lively community filled with chefs at all levels, foodies, at home chefs, and people who just plain love a good meal.
-        <br />
-        <br />
-        <br />
+          Our NFT / Marketplace concept will provide an easy transition for new
+          users to the NFT market, and provides some unique use cases as well.
+          Our Marketplace will allow users to create customized cookbooks
+          containing ONLY recipes they love (and gift them, too!). Original
+          creators of recipes within the Marketplace will have their
+          intellectual property protected for the first time ever. One of the
+          things we’re most excited to watch is the growth of the community that
+          evolves from the project. Communities are one of the most exciting
+          aspects of NFT collection, and we fully expect to grow an organic,
+          lively community filled with chefs at all levels, foodies, at home
+          chefs, and people who just plain love a good meal.
+          <br />
+          <br />
+          <br />
         </p>
-        
-
 
         <h3 className={styles.description3}>
           The Problem and How we plan to solve it.
         </h3>
         <p className={styles.description2}>
-        The home cooking industry has seen massive growth since the onset of COVID-19. Demand for instruction based cooking content, new recipes and simplified shopping apps has skyrocketed, and the platforms that traditionally house these resources have been outgrown. A recent fooddive.com noted that “Demand for recipes and products related to at home cooking have tripled since the onset of the pandemic, and with 7-10 adults poised to continue the practice in a post-Covid world, the industry shows no signs of slowing down.” <a href='https://www.fooddive.com/news/survey-7-in-10-consumers-say-they-will-keep-cooking-at-home-after-the-pand/593532/'>(ref.)</a>
+          The home cooking industry has seen massive growth since the onset of
+          COVID-19. Demand for instruction based cooking content, new recipes
+          and simplified shopping apps has skyrocketed, and the platforms that
+          traditionally house these resources have been outgrown. A recent
+          fooddive.com noted that “Demand for recipes and products related to at
+          home cooking have tripled since the onset of the pandemic, and with
+          7-10 adults poised to continue the practice in a post-Covid world, the
+          industry shows no signs of slowing down.”{" "}
+          <a href="https://www.fooddive.com/news/survey-7-in-10-consumers-say-they-will-keep-cooking-at-home-after-the-pand/593532/">
+            (ref.)
+          </a>
         </p>
         <p className={styles.description2}>
           <br />
-          </p>
+        </p>
         <h3 className={styles.description3}>
           <br />
           For Users
         </h3>
         <p className={styles.description2}>
-        We believe cooking is demanding enough. By tackling some of the issues that add to its complexity,  we can bring a more enjoyable cooking experience to home cooks around the world. Here are some our platform aims to address:
+          We believe cooking is demanding enough. By tackling some of the issues
+          that add to its complexity, we can bring a more enjoyable cooking
+          experience to home cooks around the world. Here are some our platform
+          aims to address:
         </p>
         <p className={styles.indent}>
-        <b>Convenience:</b> Web based services are currently disjointed. The average user stores recipes and cooking instructions in four unique digital locations. 
-        <br />
-        <br />
-        <b>Search:</b> Users lack a comprehensive platform with easy to navigate search features. Sort by your favorite chefs, ratings, ingredients etc. is currently not possible.
-        <br />
-        <br />
-        <b>Format:</b> We will provide a consistent, readable format designed to work with the flow of the actual cooking process. With no ads or other fluff, our recipes will be the most user friendly product in the online recipe market. We will also address the need to constantly cross reference between ingredients lists and instructions using our technology driven approach.
-        <br />
-        <br />
-        <b>Ingredients:</b> Add to cart & Alexa integration will make sourcing ingredients a breeze, not a deterrent.
+          <b>Convenience:</b> Web based services are currently disjointed. The
+          average user stores recipes and cooking instructions in four unique
+          digital locations.
+          <br />
+          <br />
+          <b>Search:</b> Users lack a comprehensive platform with easy to
+          navigate search features. Sort by your favorite chefs, ratings,
+          ingredients etc. is currently not possible.
+          <br />
+          <br />
+          <b>Format:</b> We will provide a consistent, readable format designed
+          to work with the flow of the actual cooking process. With no ads or
+          other fluff, our recipes will be the most user friendly product in the
+          online recipe market. We will also address the need to constantly
+          cross reference between ingredients lists and instructions using our
+          technology driven approach.
+          <br />
+          <br />
+          <b>Ingredients:</b> Add to cart & Alexa integration will make sourcing
+          ingredients a breeze, not a deterrent.
         </p>
         <h3 className={styles.description3}>
           <br />
           For Chefs
         </h3>
         <p className={styles.description2}>
-        Huge barriers to entry exist for new chefs looking to capture market share in the current competitive online recipe market. To be successful, chefs must either outsource (at high expense) or learn new skill sets that may be completely unrelated to their goals as a creator.
+          Huge barriers to entry exist for new chefs looking to capture market
+          share in the current competitive online recipe market. To be
+          successful, chefs must either outsource (at high expense) or learn new
+          skill sets that may be completely unrelated to their goals as a
+          creator.
         </p>
         <p className={styles.indent}>
-        <b>Blogger:</b> Must learn our outsource content that is engaging and optimized for SEO in order to generate site traffic & monetize through affiliate links and ads.
-        <br />
-        <br />
-        <b>Food Influencer:</b> Grow a social media presence and audience large enough to garner the attention of publishers and agents.
-        <br />
-        <br />
-        <b>Celebrity Chef:</b> It’s tough to get a spot on Top Chef, land a head chef gig at a hugely popular restaurant or get your own cooking show. We’ll offer metaverse and irl cooking competitions to help you build your online brand. As our community grows, we’ll be creating 3D avatars  with the capability to demo and showcase cooking tutorials on social media and in the metaverse.
-        <br />
-        <br />
+          <b>Blogger:</b> Must learn our outsource content that is engaging and
+          optimized for SEO in order to generate site traffic & monetize through
+          affiliate links and ads.
+          <br />
+          <br />
+          <b>Food Influencer:</b> Grow a social media presence and audience
+          large enough to garner the attention of publishers and agents.
+          <br />
+          <br />
+          <b>Celebrity Chef:</b> It’s tough to get a spot on Top Chef, land a
+          head chef gig at a hugely popular restaurant or get your own cooking
+          show. We’ll offer metaverse and irl cooking competitions to help you
+          build your online brand. As our community grows, we’ll be creating 3D
+          avatars with the capability to demo and showcase cooking tutorials on
+          social media and in the metaverse.
+          <br />
+          <br />
         </p>
         <p className={styles.description2}>
-        Chef Mabel NFT and The Recepedia Marketplace substantially lower these barriers for aspiring chefs, offering them a built-in audience, full technical support and an easy to use platform on which they can focus solely on building their brand.
-        <br />
-        <br />
-        <br />
-        
+          Chef Mabel NFT and The Recepedia Marketplace substantially lower these
+          barriers for aspiring chefs, offering them a built-in audience, full
+          technical support and an easy to use platform on which they can focus
+          solely on building their brand.
+          <br />
+          <br />
+          <br />
         </p>
 
+        <h3 className={styles.description3}>More About the Project</h3>
+        <p className={styles.description2}>
+          We’re tackling pain points on both sides of the industry to create an
+          innovative, tech first platform that unites chefs with users who are
+          hungry for their content!
+          <br />
+        </p>
         <h3 className={styles.description3}>
-        More About the Project
+          Building a Brand with Your Chef Mabel NFT
         </h3>
         <p className={styles.description2}>
-        We’re tackling pain points on both sides of the industry to create an innovative, tech first platform that unites chefs with users who are hungry for their content!
-        <br />
+          Chef Mabel NFTs will give chefs an online personality and presence in
+          the Recepedia Marketplace. They will achieve a leg up via instant
+          visibility and this will be accessible to chefs at all levels,
+          allowing new users a fair shot to grow a personal audience based on
+          their merits.
         </p>
-        <h3 className={styles.description3}>
-        Building a Brand with Your Chef Mabel NFT
-        </h3>
+        <p className={styles.indent}>
+          <b>More Utility:</b> Holders of the NFT keep 70 percent of the sale of
+          all recipes they create on the Marketplace and additionally, will
+          receive a portion of the 2% co-op pool. Because the NFT has inherent
+          value based on the overall success of the marketplace, this encourages
+          holders to participate in activities like promotion, creating quality
+          content & more that will help grow the marketplace as a whole. We also
+          hope this fact will help attract investors that may not necessarily
+          have an interest in creating recipes themselves.
+          <br />
+          <br />
+          <b>Deflationary Assets:</b> Every time a Chef Mabel NFT is sold on the
+          secondary market, the NFTwill ‘catch fire’ and mutate. This is to
+          protect the IP of the previous holder and their content. On the 70th
+          sale, the entire NFT will be scorched–it burns entirely and is removed
+          from circulation on the next sale. We intend to use internal funds for
+          some NFT buybacks to further reduce overall supply.
+          <br />
+          <br />
+          <b>The Consumer Experience & the Recepedia NFT Marketplace:</b> Our
+          team has years of experience building content and data management
+          tools that will give us a decided edge in the existing marketplace. We
+          will use these advantages to become the go-to resource for recipes and
+          community within the online foodspace.
+          <br />
+          <br />
+          <b>Superior Search:</b> We’re developing a superior recipe search
+          experience by utilizing global ratings, ingredients, cuisine, health
+          and diet mindfulness, nutritional information, heat/spice rating,
+          experience level, and category a native part of the application. With
+          this data structure, we’ll be able to tailor recipe suggestions
+          specific to each user based on their caloric requirements, dietary
+          needs and more.
+          <br />
+          <br />
+          <b>More on Recipe Format:</b> Most online recipes duplicate cookbook
+          presentations that don’t really translate to today’s tech devices.
+          We’re building an e-reader tool that optimizes the flow and experience
+          with home cooks in mind. With less pausing to cross reference
+          ingredients and instructions, we believe users will not only enjoy the
+          process of cooking more, but will be able to level up their cooking
+          skills as well! We use structured component authoring in the recipe
+          NFT minting process to maximize the discoverability, readability, and
+          utility of the NFTs that are generated. AI-generated cooking demos
+          using our Chef Mabel NFTs will be fun to watch, and help our chef’s
+          cement their online persona without revealing their actual identity.
+          <br />
+          <br />
+          <b>Protecting IP:</b> The recipes themselves will not be viewable in
+          full until the recipe NFT is purchased. The shopper can see the
+          description, ingredients, provided pictures, and buyer ratings when
+          making purchase decisions. Also, users must own the NFT to provide a
+          rating.
+        </p>
+
+        <h3 className={styles.description3}>Addressable Market:</h3>
         <p className={styles.description2}>
-        Chef Mabel NFTs will give chefs an online personality and presence in the Recepedia Marketplace. They will achieve a leg up via instant visibility and this will be accessible to chefs at all levels, allowing new users a fair shot to grow a personal audience based on their merits.
+          The Chef Mabel NFT collection and The Recepedia recipe NFT marketplace
+          are positioned to tackle an industry that currently sits at over 50
+          billion in annual sales and addressable market. Cryptocurrency usage
+          is on the rise (currently around 12% in the US) and projected to grow
+          at an accelerated rate over the next few years.. Taking just 6% of the
+          global recipe and cooking service market (as the overlap between
+          crypto and cooking) the addressable market is worth $3 billion USD
+          (approx. 770k ETH). We believe we can tackle 5% of that market in the
+          first 24 months, which should lead to $150m in goods and services
+          sold. As crypto expands and our chefs onboard chefs new to the
+          crypto/NFT space, our reach grows, as well. The opportunity is
+          enormous and the market is ready for it. We will provide a
+          user-friendly onboarding experience in a niche that is already alive
+          and thriving in online communities. Our platform will be engaging, fun
+          to use and provide incredible utility for all who use it. For more
+          details on our development goals, please see our{" "}
+          <a href="https://www.google.com">roadmap. </a>
         </p>
-          <p className={styles.indent}>
-          <b>More Utility:</b>  Holders of the NFT keep 70 percent of the sale of all recipes they create on the Marketplace and additionally, will receive a portion of the 2% co-op pool. Because the NFT has inherent value based on the overall success of the marketplace, this encourages holders to participate in activities like promotion, creating quality content & more that will help grow the marketplace as a whole. We also hope this fact will help attract investors that may not necessarily have an interest in creating recipes themselves.
-          <br />
-          <br />
-          <b>Deflationary Assets:</b> Every time a Chef Mabel NFT is sold on the secondary market, the NFTwill ‘catch fire’ and mutate. This is to protect the IP of the previous holder and their content. On the 70th sale, the entire NFT will be scorched–it burns entirely and is removed from circulation on the next sale. We intend to use internal funds for some NFT buybacks to further reduce overall supply.
-          <br />
-          <br />
-          <b>The Consumer Experience & the Recepedia NFT Marketplace:</b> Our team has years of experience building content and data management tools that will give us a decided edge in the existing marketplace.  We will use these advantages to become the go-to resource for recipes and community within the online foodspace.
-          <br />
-          <br />
-          <b>Superior Search:</b>  We’re developing a superior recipe search experience by utilizing global ratings, ingredients, cuisine, health and diet mindfulness, nutritional information, heat/spice rating, experience level, and category a native part of the application. With this data structure, we’ll be able to tailor recipe suggestions specific to each user based on their caloric requirements, dietary needs and more.
-          <br />
-          <br />
-          <b>More on Recipe Format:</b>  Most online recipes duplicate cookbook presentations that don’t really translate to today’s tech devices. We’re building an e-reader tool that optimizes the flow and experience with home cooks in mind. With less pausing to cross reference ingredients and instructions, we believe users will not only enjoy the process of cooking more, but will be able to level up their cooking skills as well!  We use structured component authoring in the recipe NFT minting process to maximize the discoverability, readability, and utility of the NFTs that are generated. AI-generated cooking demos using our Chef Mabel NFTs will be fun to watch, and help our chef’s cement their online persona without revealing their actual identity.
-          <br />
-          <br />
-          <b>Protecting IP:</b> The recipes themselves will not be viewable in full until the recipe NFT is purchased. The shopper can see the description, ingredients, provided pictures, and buyer ratings when making purchase decisions. Also, users must own the NFT to provide a rating.
-          </p>
-
-          <h3 className={styles.description3}>
-          Addressable Market:
-          </h3>
-          <p className={styles.description2}>
-          The Chef Mabel NFT collection and The Recepedia recipe NFT marketplace are positioned to tackle an industry that currently sits at over 50 billion in annual sales and addressable market.
-
-Cryptocurrency usage is on the rise (currently around 12% in the US) and projected to grow at an accelerated rate over the next few years.. Taking just 6% of the global recipe and cooking service market (as the overlap between crypto and cooking) the addressable market is worth $3 billion USD (approx. 770k ETH). We believe we can tackle 5% of that market in the first 24 months, which should lead to $150m in goods and services sold. As crypto expands and our chefs onboard chefs new to the crypto/NFT space, our reach grows, as well.
-
-The opportunity is enormous and the market is ready for it. We will provide a user-friendly onboarding experience in a niche that is already alive and thriving in online communities. Our platform will be engaging, fun to use and provide incredible utility for all who use it. For more details on our development goals, please see our <a href='https://www.google.com'>roadmap. </a>
-          </p>
-
       </main>
 
       <footer className={styles.footer}>
@@ -161,14 +280,14 @@ The opportunity is enormous and the market is ready for it. We will provide a us
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
