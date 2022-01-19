@@ -47,13 +47,35 @@
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 4rem 6rem;
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: left;
+}
+
+.description3 {
+  margin: 0 6rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.description2 {
+  margin: 0 6rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.indent {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .code {
